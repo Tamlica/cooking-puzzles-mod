@@ -1,0 +1,5 @@
+{
+  "name": "cooking-puzzles",
+  "owner": { "name": "Tamlica Muhaimin" },
+  "plugins": [{ "name": "cooking-puzzles", "source": "./" }]
+}
