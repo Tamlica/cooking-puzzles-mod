@@ -1,6 +1,6 @@
 {
   "name": "cooking-puzzles",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Play Sudoku or TTS (teka-teki silang) in a pane while Claude is cooking",
   "types": "./types/index.d.ts"
 }
