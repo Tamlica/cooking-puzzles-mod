@@ -79,7 +79,7 @@ const openPane = async ($: EngineInterface, which?: Game) => {
   const g = await read($, game)
   if (g === 'sudoku' && !(await read($, sudoku))) await setSudoku($, () => newSudoku())
   if (g === 'tts' && !(await read($, tts))) void startTts($).catch(() => {})
-  return $.ui.open({ id: PANE, title: TITLE[g], focus: true, rows: ROWS[g] })
+  return $.ui.open({ id: PANE, title: TITLE[g], focus: true, closeOnEscape: true, rows: ROWS[g] })
 }
 
 export const register: Register = on => {
